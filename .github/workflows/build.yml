@@ -4,7 +4,7 @@ name: Compilar NightVision
 on:
   workflow_dispatch:
   push:
-    branches: [principal]
+  branches: [main]
 
 jobs:
   build:
